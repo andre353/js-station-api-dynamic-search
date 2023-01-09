@@ -1,0 +1,70 @@
+html {
+  background: #f654ae
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ffffff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E")
+    3px;
+  font-family: Arial, sans-serif;
+  box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-top: 100px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #fff;
+}
+
+.form {
+  max-width: 420px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  margin: 0;
+  text-align: center;
+  outline: 0;
+  border: 10px solid #f7f7f7;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  border-radius: 4px;
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+  width: 120%;
+  margin-bottom: 50px;
+}
+
+.options {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.options li {
+  border-radius: 4px;
+  background: white;
+  list-style: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  margin: 0;
+  padding: 18px;
+  text-transform: capitalize;
+}
+
+.hl {
+  background: #ffc600;
+}
